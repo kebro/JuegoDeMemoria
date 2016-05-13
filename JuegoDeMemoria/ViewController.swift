@@ -22,9 +22,7 @@ class ViewController: UIViewController {
     
     func miniRetoFuncion() {
         
-        var indice = 0
-        
-        while indice <= 100{
+        for indice in 0..<101{
             if indice >= 30 && indice <= 40 {
                 print("#\(indice) Viva Swift!!!")
             }else if indice % 5 == 0 {
@@ -34,7 +32,6 @@ class ViewController: UIViewController {
             }else if indice % 3 == 0 {
                 print("#\(indice) impar")
             }
-            indice += 1
         }
     }
 
